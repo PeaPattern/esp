@@ -77,7 +77,7 @@ local function ESP(Target)
                 shape.Visible = false
             end
         else
-            shape:Remove()
+            shape.Visible = false
         end
     end)
 end
